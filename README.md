@@ -1,1 +1,2 @@
-# Projects-10SmallProjects
+# Projects-SmallProjects
+
