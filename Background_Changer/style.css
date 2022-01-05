@@ -1,0 +1,31 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+button {
+	padding: 1em;
+	background-color: dodgerblue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+button:hover {
+	background-color: rgb(72, 163, 255);
+	transition: all .3s;
+}
+
+button:active {
+	font-size: 1.3rem;
+}
