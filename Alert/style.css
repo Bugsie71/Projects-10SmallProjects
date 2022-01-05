@@ -1,0 +1,61 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	font-size: 1.15rem;
+}
+
+.alert-container {
+	display: none;
+	width: 20rem;
+	height: auto;
+	background-color: white;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	position: relative;
+	text-align: center;
+	flex-direction: column;
+}
+
+#x-btn {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+
+.option-container {
+	padding: 0em 1em 1em 1em;
+}
+
+p {
+	padding: 1em 3em;
+	margin: 0;
+}
+
+button {
+	padding: .5em 1em;
+	margin: 0;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: dodgerblue;
+	color: white;
+}
+
+button:hover {
+	background-color: rgb(64, 159, 255);
+	transition: all .5s;
+}
+
+.red-btn {
+	background-color: orangered;
+}
+
+.red-btn:hover {
+	background-color: rgb(255, 97, 40);
+}
