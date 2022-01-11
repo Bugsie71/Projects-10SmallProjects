@@ -5,3 +5,4 @@
 3. Dark Mode
 4. Heart Rain
 5. Toast Notification
+6. Hamburger Menu
