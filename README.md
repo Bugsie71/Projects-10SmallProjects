@@ -6,3 +6,4 @@
 4. Heart Rain
 5. Toast Notification
 6. Hamburger Menu
+7. Random Number Generator
